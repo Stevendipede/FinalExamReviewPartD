@@ -12,15 +12,8 @@ import java.util.ArrayList;
  * @author dancye
  */
 public class Pizza 
-{
-    public int bakeTemp = 100;//temp to bake at
+{   public int bakeTemp = 100;//temp to bake at
     private ArrayList<String> ingredients = new ArrayList();
-    public void bake(int temp)
-    {
-        bakeTemp = temp;
-        //do some baking here, code not implemented yet
-        //not necessary for the review
-    }
     /**
      *  A method to add toppings to the ingredients
      * list

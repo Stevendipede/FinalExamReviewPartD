@@ -13,7 +13,7 @@ package pizzashop;
  * Freeman, E.Freeman, E., Sierra, K., & Bates, B. (2004). Head First Design patterns. Sebastopol, CA: O'Reilly.
  * @author dancye
  */
-class PizzaFactory 
+class PizzaFactory implements PizzaMaker
 {
     /**
      * returns a concrete pizza object

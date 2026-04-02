@@ -27,7 +27,7 @@ public class PizzaShop {
         System.out.println("What kind of pizza do you want?");
         System.out.println("Please enter exactly cheese or pepperoni");
         String type = sc.nextLine();
-        PizzaFactory pf = new PizzaFactory();
+        PizzaMaker pf = new PizzaFactory();
         Pizza pizza = pf.createPizza(type);
         System.out.println("how many slices would you like?");
         int numSlices = sc.nextInt();
